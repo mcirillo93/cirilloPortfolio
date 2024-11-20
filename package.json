@@ -1,0 +1,14 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "Portfolio Page ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx run start "
+  },
+  "author": "Michael Cirillo",
+  "license": "ISC",
+  "dependencies": {
+    "src": "file:"
+  }
+}

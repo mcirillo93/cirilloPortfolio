@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #041E42; /* Navy Blue Background */
+    color: #ffffff; /* White Text */
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #C8102E; /* Panthers Red */
+    color: #ffffff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px; /* Fixed Height for Consistency */
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .navbar a {
+    color: #ffffff; /* White Text */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #B9975B; /* Panthers Gold */
+  }
+  
+  /* Section Styles */
+  .section {
+    padding: 3rem;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #C8102E; /* Panthers Red */
+  }
+  
+  p, ul, li {
+    color: #ffffff; /* White for Text Consistency */
+  }
+  
+  /* Contact Form Styles */
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #B9975B; /* Panthers Gold */
+    border-radius: 5px;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .contact-form button {
+    background-color: #C8102E; /* Panthers Red */
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #B9975B; /* Panthers Gold */
+  }
+  
+  /* Page Link Styling */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 0.5rem 0;
+  }
+  
