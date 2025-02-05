@@ -9,6 +9,7 @@
   "author": "Michael Cirillo",
   "license": "ISC",
   "dependencies": {
-    "src": "file:"
+    "src": "file:",
+    "vite": "^6.1.0"
   }
 }
