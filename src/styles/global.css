@@ -1,0 +1,39 @@
+html {
+    --primary-color: #041E42; /* Florida Panthers Dark Blue */
+    --secondary-color: #C8102E; /* Florida Panthers Red */
+    --accent-color: #B9975B; /* Gold Accent */
+    --text-color: #FFFFFF;
+    --bg-color: #F1F1F1;
+  }
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2 {
+    color: var(--secondary-color);
+  }
+  
+  button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: background 0.3s;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  .card {
+    background-color: var(--text-color);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    color: var(--primary-color);
+  }
