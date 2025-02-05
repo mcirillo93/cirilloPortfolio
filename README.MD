@@ -1,8 +1,8 @@
-React Developer Portfolio
+<h1>React Developer Portfolio<h1>
 
 A responsive single-page portfolio application built with React, featuring sections for About, Projects, and Contact. The project demonstrates the use of React Router for multi-page navigation, and it incorporates a professional design inspired by the Florida Panthers' color scheme.
 
-Features
+<h2>Features<h2>
 
 About Page: Serves as the home page with details about your background and expertise.
 Projects Page: Showcases your projects with room for descriptions and links.
@@ -14,7 +14,7 @@ React: Front-end library for building user interfaces.
 React Router: Library for navigation between multiple pages.
 CSS: Custom styling for a clean and professional design.
 
-Installation and Setup
+<h2>Installation and Setup<h2>
 
 
 Prerequisites
@@ -53,14 +53,14 @@ src/
 └── index.js            # Entry point for the React app
 
 
-Customization
+<h2>Customization<h2>
 About Section: Update your personal details in About.js.
 Projects Page: Add your projects to Projects.js with descriptions and links.
 Contact Form: Modify the submission logic in Contact.js to integrate with a backend or email service like EmailJS.
 Styling: Adjust colors and layout in styles.css to further personalize the design.
 
 
-Deployment
+<h2>Deployment<h2>
 Deploy to GitHub Pages
 Install the gh-pages package:
 bash
