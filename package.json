@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.4",
+    "react-dom": "^18.0.0",
     "src": "file:",
     "vite": "^6.1.0"
   }
