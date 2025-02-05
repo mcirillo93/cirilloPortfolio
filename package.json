@@ -9,6 +9,7 @@
   "author": "Michael Cirillo",
   "license": "ISC",
   "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
     "src": "file:",
     "vite": "^6.1.0"
   }
