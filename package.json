@@ -4,7 +4,7 @@
   "description": "Portfolio Page ",
   "main": "index.js",
   "scripts": {
-    "test": "npm run start "
+    "build": "cd client && npm run build"
   },
   "author": "Michael Cirillo",
   "license": "ISC",
