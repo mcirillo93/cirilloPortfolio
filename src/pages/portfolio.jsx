@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/global.css";
 import { Card, CardContent } from "../components/ui/card";
-import { Button } from "../components/ui/Button";
+import { Button } from "../components/ui/button";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const Portfolio = () => {
