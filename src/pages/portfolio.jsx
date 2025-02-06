@@ -49,7 +49,7 @@ const Portfolio = () => {
         </Button>
         <Button asChild>
           <a href="mailto:michael.cirillo093@gmail.com">
-            <FaEnvelope className="mr-2" /> Email Me
+            <FaEnvelope className="mr-2" /> Email Me: michael.cirillo093@gmail.com
           </a>
         </Button>
       </section>
