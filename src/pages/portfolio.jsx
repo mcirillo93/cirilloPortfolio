@@ -28,9 +28,9 @@ const Portfolio = () => {
           <CardContent>
             <h2 className="text-2xl font-semibold">Check out some of my latest work!</h2>
             <ul className="mt-2">
-              <li><strong>Address Book Application</strong>Storage of Addresses and Data</li>
-              <li><strong>Vehicle Editor</strong> Vehicle Tracker with storage</li>
-              <li><strong>"BookHaus":</strong> A Book Club social media application</li>
+              <li><strong>Address Book Application</strong> - <a href="https://github.com/mcirillo93/Project1-AddressBook" target="_blank" rel="noopener noreferrer"> Click Here!</a></li>
+              <li><strong>Vehicle Editor</strong> -   <a href="https://github.com/mcirillo93/vehicleAdditions" target="_blank" rel="noopener noreferrer"> Click Here!</a></li>
+              <li><strong>"BookHaus":</strong> A Book Club social media application - <a href="https://github.com/mcirillo93/BookHaus" target="_blank" rel="noopener noreferrer"> Click Here!</a></li>
             </ul>
           </CardContent>
         </Card>
@@ -38,17 +38,17 @@ const Portfolio = () => {
 
       <section className="mt-6 flex space-x-4">
         <Button asChild>
-          <a href="https://github.com/johndoe" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/mcirillo93" target="_blank" rel="noopener noreferrer">
             <FaGithub className="mr-2" /> GitHub
           </a>
         </Button>
         <Button asChild>
-          <a href="https://linkedin.com/in/johndoe" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/michael-cirillo-82268926a/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="mr-2" /> LinkedIn
           </a>
         </Button>
         <Button asChild>
-          <a href="mailto:johndoe@example.com">
+          <a href="mailto:michael.cirillo093@gmail.com">
             <FaEnvelope className="mr-2" /> Email Me
           </a>
         </Button>
